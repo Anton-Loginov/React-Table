@@ -1,0 +1,25 @@
+.status {
+  padding: 4px 4px;
+
+  &__value {
+    font-size: 13px;
+    line-height: 20px;
+    padding: 4px 4px;
+    border-radius: 5px;
+  }
+
+  .pending {
+    background: rgba(0, 122, 255, 0.11);
+    color: #007AFF;
+  }
+
+  .paid {
+    background: rgba(255, 45, 85, 0.11);
+    color: #FF4E3D;
+  }
+
+  .unpaid {
+    background: rgba(255, 149, 0, 0.11);
+    color: #FF9500;
+  }
+}

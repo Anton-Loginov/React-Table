@@ -1,0 +1,27 @@
+.user-info {
+    max-width: 150px;
+    width: 100%;
+    padding: 21px 31px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &__avatar {
+        max-width: 37px;
+        width: 100%;
+        height: 37px;
+    }
+
+    &__user-name {
+        font-size: 14px;
+        line-height: 18px;
+        color: #232326;
+        text-decoration: none;
+        transition: .4s;
+
+        &:hover {
+            color: #007AFF;
+        }
+    }
+}

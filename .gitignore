@@ -1,0 +1,20 @@
+# Mac
+.DS_Store
+
+.node
+#idea files
+.idea/
+!.idea/runConfigurations/
+*.iml
+
+# idea build
+out/
+
+# deprecated
+*.war
+*.log
+*.log.gz
+classes/
+
+# vertx files
+.vertx/
